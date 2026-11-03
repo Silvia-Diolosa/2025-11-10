@@ -40,6 +40,9 @@ class Model:
         return list(self._graph.edges(data=True))
 
 
+    # Tramite il pulsante “Cerca Percorso Massimo”, si visualizzi il cammino più lungo partendo da un nodo (si
+    # scelga l’algoritmo di visita del grafo più opportuno fra visita in ampiezza ed in profondità). Il nodo è
+    # selezionato dall’apposito menù a tendina.
     def getPercorsoMax(self, partenza):
 
         # questa soluzione è sbgaliata
